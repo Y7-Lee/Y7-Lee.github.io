@@ -9,15 +9,6 @@
     <lastBuildDate>Thu, 27 Apr 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://y7-lee.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proposer / Builder Separation (PBS):A Look into its Present and Future</title>
-      <link>https://y7-lee.github.io/posts/post1_mev/</link>
-      <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
-      
-      <guid>https://y7-lee.github.io/posts/post1_mev/</guid>
-      <description>Introduction After Ethereum transitioned from Proof-of-work (PoW) to Proof-of-stake (PoS), validators replaced miners as the key role in the network. The idea of Proposer / Builder Separation (PBS) is to split validators into two roles, Builder and Proposer, to mitigate MEV&amp;rsquo;s negative impact. Currently, PBS is mainly implemented by MEV-Boost, and in the future, PBS will be built into the Ethereum protocol. This report will introduce PBS&amp;rsquo;s mechanism and discuss its current situation and future.</description>
-    </item>
-    
-    <item>
-      <title>Proposer / Builder Separation (PBS):A Look into its Present and Future</title>
       <link>https://y7-lee.github.io/posts/post1_pic/post1_mev/</link>
       <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
       
