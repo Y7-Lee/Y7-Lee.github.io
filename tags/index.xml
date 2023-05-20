@@ -2,35 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Y7-Lee</title>
-    <link>https://y7-lee.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Y7-Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://y7-lee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 09:03:20 -0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Defi</title>
-      <link>https://y7-lee.github.io/tags/defi/</link>
+      <title>information_web3</title>
+      <link>/tags/information_web3/</link>
       <pubDate>Thu, 18 May 2023 09:03:20 -0800</pubDate>
       
-      <guid>https://y7-lee.github.io/tags/defi/</guid>
+      <guid>/tags/information_web3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>updating</title>
+      <link>/tags/updating/</link>
+      <pubDate>Thu, 18 May 2023 09:03:20 -0800</pubDate>
+      
+      <guid>/tags/updating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defi</title>
+      <link>/tags/defi/</link>
+      <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
+      
+      <guid>/tags/defi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freelance</title>
+      <link>/tags/freelance/</link>
+      <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
+      
+      <guid>/tags/freelance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MEV</title>
-      <link>https://y7-lee.github.io/tags/mev/</link>
-      <pubDate>Thu, 18 May 2023 09:03:20 -0800</pubDate>
+      <link>/tags/mev/</link>
+      <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
       
-      <guid>https://y7-lee.github.io/tags/mev/</guid>
+      <guid>/tags/mev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PBS</title>
-      <link>https://y7-lee.github.io/tags/pbs/</link>
-      <pubDate>Thu, 18 May 2023 09:03:20 -0800</pubDate>
+      <link>/tags/pbs/</link>
+      <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
       
-      <guid>https://y7-lee.github.io/tags/pbs/</guid>
+      <guid>/tags/pbs/</guid>
       <description></description>
     </item>
     

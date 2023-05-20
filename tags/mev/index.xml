@@ -2,27 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MEV on Y7-Lee</title>
-    <link>https://y7-lee.github.io/tags/mev/</link>
+    <link>/tags/mev/</link>
     <description>Recent content in MEV on Y7-Lee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://y7-lee.github.io/tags/mev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2023 09:03:20 -0800</lastBuildDate><atom:link href="/tags/mev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>web3_information</title>
-      <link>https://y7-lee.github.io/posts/projects_web3/</link>
-      <pubDate>Thu, 18 May 2023 09:03:20 -0800</pubDate>
-      
-      <guid>https://y7-lee.github.io/posts/projects_web3/</guid>
-      <description>&amp;mdash;updating&amp;mdash;some useful information/links/projects about web3</description>
-    </item>
-    
-    <item>
-      <title>Post1: Proposer / Builder Separation (PBS):A Look into its Present and Future</title>
-      <link>https://y7-lee.github.io/posts/post1_mev/</link>
+      <title>Proposer / Builder Separation: A Look into its Present and Future</title>
+      <link>/posts/defi/pbs/</link>
       <pubDate>Thu, 27 Apr 2023 09:03:20 -0800</pubDate>
       
-      <guid>https://y7-lee.github.io/posts/post1_mev/</guid>
-      <description>The idea of Proposer / Builder Separation (PBS) is to split validators into two roles, Builder and Proposer, to mitigate MEV&amp;rsquo;s negative impact.</description>
+      <guid>/posts/defi/pbs/</guid>
+      <description>&lt;em&gt;The idea of Proposer / Builder Separation (PBS) is to split validators into two roles, Builder and Proposer, to mitigate MEV&amp;rsquo;s negative impact.&lt;/em&gt;</description>
     </item>
     
   </channel>
