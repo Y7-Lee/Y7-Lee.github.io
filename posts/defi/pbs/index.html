@@ -100,8 +100,8 @@
   <meta property="twitter:image" content="/images/3.jpg">
 
 
-  <meta property="og:image" content="/images/1.jpg">
-  <meta property="twitter:image" content="/images/1.jpg">
+  <meta property="og:image" content="/images/3.jpg">
+  <meta property="twitter:image" content="/images/3.jpg">
 
 
     <title>Proposer / Builder Separation: A Look into its Present and Future</title>
@@ -131,7 +131,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="2">
+      <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/" aria-label="Go to homepage">Y7-Lee</a>
@@ -149,7 +149,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="2">
+      <nav id="sidebar" data-behavior="1">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -249,12 +249,12 @@
 
       
   <div class="post-header-cover
-              text-left
+              text-bottom
               post-header-cover--partial"
        style="background-image:url('/images/3.jpg')"
-       data-behavior="2">
+       data-behavior="1">
     
-      <div class="post-header main-content-wrap text-left">
+      <div class="post-header main-content-wrap text-bottom">
   
     <h1 class="post-title">
       Proposer / Builder Separation: A Look into its Present and Future
@@ -277,7 +277,7 @@
   </div>
 
 
-      <div id="main" data-behavior="2"
+      <div id="main" data-behavior="1"
         class="hasCover
                hasCoverMetaIn
                ">
@@ -289,6 +289,23 @@
               <h2 id="introduction">Introduction</h2>
 <p><em>After Ethereum transitioned from Proof-of-work (PoW) to Proof-of-stake (PoS), validators replaced miners as the key role in the network. The idea of Proposer / Builder Separation (PBS) is to split validators into two roles, Builder and Proposer, to mitigate MEV&rsquo;s negative impact. Currently, PBS is mainly implemented by
 MEV-Boost, and in the future, PBS will be built into the Ethereum protocol. This report will introduce PBS&rsquo;s mechanism and discuss its current situation and future.</em></p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#1-background">1. Background</a></li>
+    <li><a href="#2what-is-pbs">2.What is PBS</a></li>
+    <li><a href="#3-the-present-and-future-of-pb">3. The Present and future of PB</a>
+      <ul>
+        <li><a href="#31-mev-boost">3.1 MEV-Boost</a></li>
+        <li><a href="#32--in-protocol-pbs">3.2  In-protocol PBS</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-noteworthy-issues">4. Noteworthy Issues</a></li>
+    <li><a href="#5conclusion">5.Conclusion</a></li>
+  </ul>
+</nav>
+
 <h2 id="1-background">1. Background</h2>
 <p>After the merge of Ethereum, the threshold for validator nodes has been lowered, allowing more users to participate. This has greatly increased the number of validators, improving Ethereum&rsquo;s decentralization and security. However, the problem of disproportionate beneficiaries of Maximal Extractable Value (MEV) is still a concern. Currently, the market size of MEV is very large. The following figure shows the cumulative MEV value before the merge, which is close to 700 million US dollars, and this value is still growing (Figure 1).</p>
 
@@ -320,7 +337,7 @@ MEV-Boost, and in the future, PBS will be built into the Ethereum protocol. This
     
   
 
-<div class="figure center" >
+<div class="figure left" >
   
     <a class="fancybox" href="/images/post1_pic/fig1.png" title="Figure 1 Cumulative Extract MEV (Before merge); Source: https://explore.flashbots.net/" data-fancybox="group:travel">
   
@@ -481,7 +498,7 @@ threshold for Proposer is much lower. Therefore, even without powerful nodes, Pr
   <div style="clear:both;"></div>
 
 <p>In the future, Dank-Sharding will also rely on PBS solutions because Dank-Sharding has strong computing power and bandwidth requirements for participant nodes (32-64 core CPUs, 2.5Gbit/s bandwidth). Under the PBS solution, these burdens will naturally be borne by builders with powerful computing power. The proposer&rsquo;s burden will not increase, nor will it be centralized. Therefore, in-protocol PBS also conforms to Ethereum’s future development direction Censorship Resistance List (crList) is a term that needs to be mentioned in In-protocol PBS (Figure 4). Proposer has the right to specify a transaction list, and Builder can only choose to package and sort crList; after winning the auction, Builder needs to prove that all transactions in crList have been included, otherwise the block will be considered invalid. This means that packagers cannot insert their own private transactions to obtain MEV, nor can they intentionally reject a transaction.</p>
-<h3 id="4-noteworthy-issues">4. Noteworthy Issues</h3>
+<h2 id="4-noteworthy-issues">4. Noteworthy Issues</h2>
 <ul>
 <li>
 <p><strong>Decentralization of Builder</strong></p>
@@ -662,6 +679,18 @@ Currently, there are also discussions about the implementation of in-protocol PB
 
           </div>
         </article>
+ 
+
+
+
+
+
+        
+
+
+
+
+
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2023 Y7-Lee. All Rights Reserved
@@ -669,7 +698,7 @@ Currently, there are also discussions about the implementation of in-protocol PB
 </footer>
 
       </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="2">
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
         
 <div class="post-actions-wrap">
   <nav >
@@ -754,7 +783,7 @@ Currently, there are also discussions about the implementation of in-protocol PB
     
   
     
-      <div id="cover" style="background-image:url('/images/it.jpg');"></div>
+      <div id="cover" style="background-image:url('/images/2.jpg');"></div>
     
   
 
@@ -789,4 +818,5 @@ $(document).ready(function() {
     
   </body>
 </html>
+
 
