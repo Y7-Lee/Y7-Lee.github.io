@@ -53,6 +53,11 @@
     <loc>/roadmap/</loc>
     <lastmod>2023-04-27T09:03:20-08:00</lastmod>
   </url><url>
+    <loc>/erc20/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>/posts/updatingflag/</loc>
+  </url><url>
     <loc>/posts/sidechain_layer2/appchain/</loc>
   </url>
 </urlset>
